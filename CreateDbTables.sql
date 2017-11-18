@@ -1,4 +1,4 @@
-USE [EFTest]
+﻿USE [EFTest]
 GO
 
 /****** Object:  Table [dbo].[Session]    Script Date: 11/16/2017 9:37:01 PM ******/
@@ -49,5 +49,4 @@ GO
 
 ALTER TABLE [dbo].[Policy] CHECK CONSTRAINT [FK_Policy_Session]
 GO
-
 
