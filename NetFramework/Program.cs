@@ -23,10 +23,12 @@
                 }
                 catch (Exception e)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(e);
                     Console.ReadLine();
                 }
 
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("NetFramework Saved successfully");
                 Console.ReadLine();
             }
